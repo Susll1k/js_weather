@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: cadetblue;
+
+        }
+        .weather{
+            color: rgb(0, 255, 247);
+            font-size: large;
+        }
+        #f{
+            background-color: rgb(126, 190, 192);
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 >Введите город чтобы узнать погоду погоду</h2><br>
+    <input type="text" placeholder="введите название города" class="city" id="f"><br>
+    <button class="btn" id="f">Поиск</button><br><br>
+    <div class="weather" id="weather">
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
